@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Orbitron:wght@400;500&family=PT+Sans:wght@400;700&family=Poppins:wght@300;700&family=Roboto:wght@400;700&family=Ubuntu:wght@500&display=swap');
+
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Orbitron', sans-serif;
 }
 
 body{
@@ -18,7 +22,7 @@ body{
 	flex-direction: column;
 	text-align: center;
 	background: brown;
-	width: 30rem;
+	width: 26rem;
 	text-align: center;
 	justify-content: center;
 	height: 540px;
@@ -36,11 +40,13 @@ body{
 	border-radius: 6px;
 	padding: 5px;
 	margin-bottom: 20px;
+	font-weight: lighter;
 
 }
 
 .main input{
 	width: 100%;
+	font-weight: 600;
 	padding: 10px;
 	margin: auto;
 	height: 40px;
